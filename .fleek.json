@@ -1,7 +1,7 @@
 {
   "build": {
     "image": "node:lts",
-    "command": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
+    "command": "npm install && npm run build",
     "publicDir": "/content/en"
   }
 }
